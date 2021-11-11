@@ -42,17 +42,18 @@ int main(){
             sum += c;
             result.push_back(c);
             }
-            cout << "Sum of the values: " << sum << " m" << endl;
-            sort(result);
-            cout << "Sorted vector: " << endl;
-            for (int i = 0; i < result.size(); ++i){
-                cout << i + 1 << ". element:  " << result[i] << " m" << endl;
-            }
-
             cout << "Please enter a value with unit (cm, m,in, ft)." << endl;
         }else{
             exit(0);
         }
     }
+    
+    cout << "Sum of the values: " << sum << " m" << endl;
+    sort(result);
+    cout << "Sorted vector: " << endl;
+    for (int i = 0; i < result.size(); ++i){
+        cout << i + 1 << ". element:  " << result[i] << " m" << endl;
+    }
+
     return 0;
 }
