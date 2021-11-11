@@ -5,7 +5,7 @@ int main(){
     cout << "Please enter your first name (followed by 'enter'):\n";
     cin >> f_name;
     cout << "Dear " << f_name << "," << endl;
-    cout << "How are you? \n I am fine. \n I miss you" << endl;
+    cout << "How are you?" << endl;
 
     string friend_name = "";
     cout << "Please enter one of your frinds name (followed by 'enter'):\n";
